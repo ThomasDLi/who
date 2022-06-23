@@ -12,7 +12,7 @@ function Result(){
 
     useEffect(() => {
         const fetchData = async () => {
-            const data = await fetch(`http://127.0.0.1:8000/find_post?msg=${searchParams.get("search")}`)
+            const data = await fetch(`http://who.thomasdli.repl.co/find_post?msg=${searchParams.get("search")}`)
             var info = await data.json();
             console.log(info);
             setAuthor(info[2]);
