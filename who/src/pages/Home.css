@@ -1,0 +1,25 @@
+.main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90vh;
+
+}
+
+.title {
+
+    font-size: 1000%;
+    display: inline-block;
+    line-height: 0.2;
+
+}
+
+.search {
+
+    border-radius: 500vh;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
